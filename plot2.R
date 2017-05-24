@@ -1,5 +1,5 @@
 
-
+require(dplyr)
 
 # Read the data
 data <- read.table("household_power_consumption.txt",sep = ";", header = TRUE, stringsAsFactors = FALSE)
